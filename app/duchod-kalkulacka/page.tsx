@@ -5,6 +5,7 @@ import { calculatePension } from '@/lib/pension'
 import { PiggyBank, ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 import ThemeToggle from '@/components/ThemeToggle'
+import AdSlot from '@/components/AdSlot'
 
 export default function PensionCalculatorPage() {
   const [yearsOfWork, setYearsOfWork] = useState('40')
@@ -114,7 +115,7 @@ export default function PensionCalculatorPage() {
         <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-8 text-center mb-8">
           <p className="text-gray-500 dark:text-gray-400 text-sm mb-2">Reklama</p>
           <div className="bg-white dark:bg-gray-700 rounded p-4 min-h-[100px] flex items-center justify-center">
-            <p className="text-gray-400 dark:text-gray-500">Reklamní blok - AdSense</p>
+            <AdSlot />
           </div>
         </div>
 
@@ -133,4 +134,3 @@ export default function PensionCalculatorPage() {
     </div>
   )
 }
-

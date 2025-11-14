@@ -1,6 +1,9 @@
+'use client'
+
 import Link from 'next/link'
 import { Calculator, DollarSign, Percent, Activity, Ruler, Home as HomeIcon, Fuel, PiggyBank, TrendingUp } from 'lucide-react'
 import ThemeToggle from '@/components/ThemeToggle'
+import AdSlot from '@/components/AdSlot'
 
 export default function HomeEN() {
   const tools = [
@@ -166,7 +169,7 @@ export default function HomeEN() {
         <div className="bg-gray-100/80 dark:bg-gray-900/70 border border-dashed border-gray-300 dark:border-gray-700 rounded-xl p-8 text-center mb-12">
           <p className="text-gray-500 dark:text-gray-400 text-sm mb-2">Advertisement</p>
           <div className="bg-white dark:bg-gray-800 rounded-lg p-4 min-h-[100px] flex items-center justify-center shadow-inner shadow-black/10">
-            <p className="text-gray-500 dark:text-gray-400">Ad block - AdSense or affiliate</p>
+            <AdSlot />
           </div>
         </div>
 
@@ -272,4 +275,3 @@ export default function HomeEN() {
     </div>
   )
 }
-

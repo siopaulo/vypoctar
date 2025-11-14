@@ -1,0 +1,11 @@
+core.symlinks=true
+core.autocrlf=true
+user.email=pavel.v@f13cybertech.com
+user.name=Pavel Versecky
+safe.directory=/app
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/siopaulo/vypoctar.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*

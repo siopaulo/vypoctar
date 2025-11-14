@@ -1,3 +1,7 @@
+'use client'
+
+'use client'
+
 import Link from 'next/link'
 import { Info, ShieldCheck, LifeBuoy } from 'lucide-react'
 import ThemeToggle from '@/components/ThemeToggle'
