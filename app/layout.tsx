@@ -6,7 +6,7 @@ import Script from 'next/script'
 const inter = Inter({ subsets: ['latin', 'latin-ext'] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://cesky-kalkulator.vercel.app'),
+  metadataBase: new URL('https://vypoctar.cz'),
   title: 'Kalkulátor - Převodníky jednotek, měn, DPH a další nástroje',
   description: 'Užitečné kalkulačky a převodníky: jednotky, měny, DPH, BMI, plochy, objemy a další. Vše zdarma, orientačně a online.',
   keywords: [
@@ -22,7 +22,8 @@ export const metadata: Metadata = {
   category: 'technology',
   authors: [{ name: 'Kalkulátor' }],
   alternates: {
-    canonical: '/',
+    canonical: 'https://vypoctar.cz/',
+  
     languages: {
       'cs-CZ': '/',
       'en-US': '/en',
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Kalkulátor - Převodníky a kalkulačky',
     description: 'Praktické kalkulačky a převodníky zdarma pro domácnost, školu i podnikání.',
-    url: '/',
+    url: 'https://vypoctar.cz/',
     siteName: 'Kalkulátor',
     type: 'website',
     locale: 'cs_CZ',

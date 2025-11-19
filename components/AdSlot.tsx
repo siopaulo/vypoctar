@@ -3,7 +3,7 @@
 import { useEffect } from "react"
 
 export default function AdSlot({
-  slot = "7010336913",  // ← TVŮJ SKUTEČNÝ AD SLOT
+  slot = "7010336913", 
 }) {
   useEffect(() => {
     try {
